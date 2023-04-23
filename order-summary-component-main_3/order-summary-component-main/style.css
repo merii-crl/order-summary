@@ -1,0 +1,145 @@
+html {
+  font-size: 62.5%;
+  background-color: rgba(214, 226, 240, 0.7);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Red Hat Display', sans-serif;
+  position: relative;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+}
+
+.container {
+  display: grid;
+  place-items: center;
+
+  position: relative;
+}
+
+.bg-img {
+  position: absolute;
+  top: -10px;
+  z-index: -1;
+}
+
+.order-img {
+  margin-bottom: 3.2rem;
+}
+
+.order {
+  height: 600px;
+  width: 380px;
+  background-color: #fff;
+  overflow: hidden;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% 0;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 10px;
+}
+
+.text-order {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-bottom: 1.2rem;
+}
+
+.description {
+  padding: 0 2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.plan {
+  background-color: hsl(225, 100%, 98%);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem;
+  border-radius: 10px;
+}
+
+.row2 {
+  margin-right: 5rem;
+}
+
+.annual-plan {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+.price {
+  margin-top: 0.5rem;
+}
+
+.change:hover {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 1.4rem 8rem;
+  margin: 1rem 1.6rem;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.btn-proceed:link,
+.btn-proceed:visited {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15)
+}
+
+.btn-proceed:hover,
+.btn-proceed:active {
+  background-color: hsl(245, 63%, 55%);
+}
+
+.btn-cancel {
+  color: hsl(224, 23%, 55%);
+}
+
+.btn-cancel:hover,
+.btncancel:active {
+  color: hsl(223, 31%, 36%);
+}
+
+/* copyright */
+.attribution {
+  font-size: 11px;
+
+}
+
+.attribution p {
+  display: inline-block;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
